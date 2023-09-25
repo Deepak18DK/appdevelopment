@@ -1,0 +1,185 @@
+/* Add this CSS to your stylesheets */
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 150px; /* Adjust the height as needed */
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  /* Updated CSS for centering and adding a white container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This centers the container vertically */
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
+  .feedback-form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    margin-top: 45px;
+  }
+  
+  .feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* ... Rest of the CSS remains the same */
+  /* Updated CSS for a curved text box */
+.curved-text-box {
+  width: 300px;
+  height: 150px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50% 50% 0 0 / 30px 30px 0 0; /* Customize the values to adjust the curvature */
+  position: relative;
+}
+
+.curved-text-box h2 {
+  text-align: center;
+  padding-top: 30px; /* Adjust the padding to center the text vertically */
+  margin: 0;
+}
+
+
+.feedback-form {
+  margin: 20px auto; 
+  background-color: transparent; 
+  width: 80%; 
+  padding: 20px;
+  box-shadow: none; 
+  margin-top: 70px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This centers the container vertically */
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+  
+  .feedback-form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    margin-top: 45px;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+  }
+  
+  .feedback-form:hover {
+    background-color: #f5f5f5; /* Change the background color on hover */
+  }
+  
+  .feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Add a color to the heading */
+  }
+  
+  /* Updated CSS for a curved text box */
+  .curved-text-box {
+    width: 300px;
+    height: 150px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50% 50% 0 0 / 30px 30px 0 0; /* Customize the values to adjust the curvature */
+    position: relative;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+  }
+  
+  .curved-text-box:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  .curved-text-box h2 {
+    text-align: center;
+    padding-top: 30px; /* Adjust the padding to center the text vertically */
+    margin: 0;
+    font-size: 24px; /* Increase the font size */
+    transition: font-size 0.3s; /* Add a smooth font size transition */
+  }
+  
+  .curved-text-box:hover h2 {
+    font-size: 28px; /* Increase the font size on hover */
+  }
+  
+  /* Add animations if desired (e.g., using keyframes) */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to an element */
+  .animated-element {
+    animation: fadeIn 1s ease-in-out; /* Customize the animation duration and timing function */
+  }
+  
+  /* Updated CSS for centering and adding a white container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This centers the container vertically */
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+}
+.feedback-form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    margin-top: 75px;
+}
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
