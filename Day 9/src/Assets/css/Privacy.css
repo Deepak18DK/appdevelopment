@@ -1,0 +1,30 @@
+/* Privacy.css */
+
+/* Center the entire container vertically and horizontally */
+
+  
+  /* Style the privacy policy content */
+  .privacy-policy {
+    max-width: 800px; /* Adjust this value to control the content width */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+  
+  /* Style the headings and paragraphs */
+  .privacy-policy h1, .privacy-policy h2, .privacy-policy h3 {
+    color: #333; /* Heading text color */
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy p {
+    color: #666; /* Paragraph text color */
+    margin-bottom: 20px;
+  }
+  
+  /* Add any additional styles you need */
+  
